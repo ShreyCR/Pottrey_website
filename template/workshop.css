@@ -1,0 +1,103 @@
+
+header{
+                
+    background-color:black;
+    background-image: url("images/wallpaperflare.com_wallpaper.jpg");
+    background-size: 100%;
+    background-position:center;
+    position: relative;
+    
+    color:white;
+    font-family: Helvetica Neue , Helvetica, sans-serif;
+    padding: 10px;
+    height: 100px;
+    text-align: center;
+}
+body{
+    background:whitesmoke;
+    color:white;
+    font-family: Helvetica Neue , Helvetica, sans-serif;
+    margin:0;
+    padding: 0;
+}
+a{
+    color:rgb(134, 45, 130);
+    text-decoration: none;
+}
+a:hover{
+    color: teal;
+    text-decoration :underline;
+}
+header .logo a{
+    background-image: url("images/Assets/logo.png");
+    background-size: 400px;
+    background-position:center;
+    background-repeat: no-repeat;
+    top: -45px;
+    position: relative;
+    width:400px;
+    display:inline-block ;
+    height: 90px;
+    text-indent: -9999px;
+}
+ul{
+    margin: 0  ;
+    padding: 0;
+    list-style-type: none;
+
+}
+li{
+    display:inline-block;
+    margin-right: 20px;
+}
+footer{
+    background:black;
+    text-align: center;
+    padding:40px;
+}
+h1{
+    text-align: center;
+}
+
+@media screen and (max-width: 715px) {
+    header {
+      height: 250px;
+      background-position: 0 -30px;
+    }
+    header .mobile {
+      display: inline-block;
+    }
+    header .desktop {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    header {
+      height: 200px;
+      background-position: 0 -0px;
+    }
+  }
+  #wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    color: darkorchid;
+    text-align: center;
+    border-radius: 10;
+  }
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    position: relative;
+    margin: 50px;
+  }
+  .container{
+    color: cornflowerblue;
+    background-color: darkgreen;
+  }
+  img {
+    border-radius: 5px 5px 5px 5px;
+  }
+  
+    

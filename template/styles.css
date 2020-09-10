@@ -1,0 +1,134 @@
+header{
+                
+    background-color:black;
+    background-image: url("images/wallpaperflare.com_wallpaper.jpg");
+    background-size: 100%;
+    background-position:center;
+    
+    
+    color:white;
+    font-family: Helvetica Neue , Helvetica, sans-serif;
+    padding: 40px;
+    height: 400px;
+    text-align: center;
+}
+body{
+    background: rgb(58,58,58);
+    color:white;
+    font-family: Helvetica Neue , Helvetica, sans-serif;
+    margin:0;
+    padding: 0;
+    
+
+}
+
+a{
+    color:rgb(134, 45, 130);
+    text-decoration: none;
+}
+
+a:hover{
+    color: teal;
+    text-decoration :underline;
+
+}
+
+header .logo a{
+    background-image: url("images/Assets/logo.png");
+    background-size: 400px;
+    background-position:center;
+    background-repeat: no-repeat;
+    top: -45px;
+    position: relative;
+    width:400px;
+    display:inline-block ;
+    height: 90px;
+    text-indent: -9999px;
+
+   
+ 
+
+   
+   
+}
+.features {
+    background:whitesmoke;
+    color:gray;
+    padding:20px;
+    font-family:Helvetica Neue , Helvetica, sans-serif;
+    /*display:block; this is the default thing*/
+    /*display: inline; (cannot assign width) Assigns each block the required size*/
+    /*display: inline-block;
+    width: 100px;
+    height:50px;*/
+    display:flex;   /*(flex box)When window is stretched it dosent cause any problems*/
+    flex-direction: row;
+}
+
+.features figure{
+
+
+margin: auto;
+width: 100px;
+
+text-align: center;
+text-transform: uppercase;
+
+}
+
+.features figure img{
+    
+    padding: 50px;
+    left: -70px;
+    position: relative;
+   
+    width: 200px;
+    border-radius: 20px;
+}
+
+
+
+div{
+    background :red;
+    color: blanchedalmond;
+    margin:auto;/*To be used with flex*/
+}
+ul{
+    margin: 0  ;
+    padding: 0;
+    list-style-type: none;
+
+}
+li{
+    display:inline-block;
+    margin-right: 20px;
+}
+footer{
+    background:black;
+    text-align: center;
+    padding:40px;
+}
+h1{
+    text-align: center;
+}
+
+@media screen and (max-width: 715px) {
+    header {
+      height: 250px;
+      background-position: 0 -30px;
+    }
+    header .mobile {
+      display: inline-block;
+    }
+    header .desktop {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    header {
+      height: 200px;
+      background-position: 0 -0px;
+    }
+  }
+  
